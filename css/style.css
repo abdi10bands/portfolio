@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  background-color: #0a0a0a;
+  color: #f8f8f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #00ff87;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  color: #00c2ff;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #00ff87;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00c2ff;
+}
+
+section h2 {
+  color: #39ff14;
+  margin-bottom: 0.5rem;
+}
+
+.prompt {
+  color: #00ff87;
+  margin-right: 0.5rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+.gif-wrapper {
+  display: flex;
+  justify-content: center; /* centers the image horizontally */
+  margin-top: 1.5rem;
+}
+
+.gif-wrapper img {
+  max-width: 100%;
+  width: 400px; /* adjust size if needed */
+  height: auto;
+  border: 2px solid #00ff87;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 135, 0.3);
+}
+.contact-section {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 1rem;
+}
+
+.contact-list a {
+  color: #00c2ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
